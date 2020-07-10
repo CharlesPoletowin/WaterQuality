@@ -7,7 +7,8 @@ const routes = [
       { path: '/', component: () => import('pages/Water.vue') },
       { path: '/rub', component: () => import('pages/Rubish.vue') },
       { path: '/water', component: () => import('pages/Water1.vue') },
-      { path: '/waterMark', component: () => import('pages/waterMark.vue') }
+      { path: '/waterMark', component: () => import('pages/waterMark.vue') },
+      { path: '/waterAnalysis', component: () => import('pages/WaterAnalysis.vue') }
     ]
   }
 ]

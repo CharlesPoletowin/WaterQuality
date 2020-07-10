@@ -11,6 +11,7 @@
 
       <!--<q-route-tab to="/water" exact slot="title" class="text-grey-4 bg-black">站点对比</q-route-tab>-->
     </q-tabs>
+    <!--      baidu map 系列 展示相关数据-->
     <div class="col-4 q-pr-sm relative-position">
       <div
         id="baidumap"
@@ -38,16 +39,20 @@
       <div class="row full-height">
         <div class="col-12 q-pb-xs half-height">
           <div class="fit cardbg">
+<!--矩形图 异常显示那个Echarts-->
+<!--            iEchart->i-echart -->
             <i-echart
               class="fit"
               :option="option"
               ref="timeline"
               :isLoading="eleshow"
             ></i-echart>
+
           </div>
         </div>
         <div class="col-4 q-pr-xs q-pt-xs half-height">
           <div class="fit cardbg">
+<!--            站点异常类型统计变化-->
             <i-echart
               class="fit"
               :option="riveropt"
@@ -58,6 +63,7 @@
         </div>
         <div class="col-4 q-px-xs q-pt-xs half-height">
           <div class="fit cardbg">
+            <!--站点各维度关联矩阵-->
             <i-echart
               class="fit"
               :option="heatopt"
@@ -67,6 +73,7 @@
         </div>
         <div class="col-4 q-pl-xs q-pt-xs half-height">
           <div class="fit cardbg">
+<!--          站点健康雷达图-->
             <i-echart
               class="fit"
               :option="radaropt"

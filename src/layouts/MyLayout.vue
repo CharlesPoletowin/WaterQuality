@@ -43,6 +43,7 @@
           />
           <q-item-main label="水质监测" />
         </q-item>
+
         <q-item to="/waterMark">
           <q-item-side
             icon="whatshot"
@@ -50,6 +51,15 @@
           />
           <q-item-main label="异常标记" />
         </q-item>
+
+         <q-item to="/waterAnalysis">
+          <q-item-side
+            icon="attach_file"
+            color="grey-5"
+          />
+          <q-item-main label="原位水质监测" />
+        </q-item>
+
       </q-list>
     </q-layout-drawer>
 
