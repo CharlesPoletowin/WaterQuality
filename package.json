@@ -14,7 +14,7 @@
   "devDependencies": {
     "@babel/runtime-corejs2": "^7.10.4",
     "@vue/eslint-config-standard": "^4.0.0",
-    "axios": "^0.18.1",
+    "axios": "^0.21.1",
     "babel-eslint": "^10.1.0",
     "babel-loader": "^8.1.0",
     "core-js": "^2.6.11",
